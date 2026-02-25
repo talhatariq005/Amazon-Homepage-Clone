@@ -1,0 +1,366 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navbar {
+    height: 60px ;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    margin-top: 5px;
+    height: 100%;
+    padding: 13px;
+}
+
+/** box2 * */
+
+
+.nav-delivery {
+    height: 100%;
+    width: 8%;
+    padding: 8px;
+}
+
+.nav-address {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    
+}
+
+.nav-country {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.nav-country p {
+    font-size: 14px;
+}
+
+.country-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/**box 3 search box**/
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 55.5%;
+    /* border: 2px solid red; */
+}
+
+.search-container {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.search-container:hover {
+    border-color: #f08804;
+
+}
+
+#select-box {
+    color: #0f1111;
+    height: 40px;
+    width: 8.5%;
+    background-color: #e6e6e6;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px;
+    padding: 5px;
+    border-color: #e6e6e6;
+    outline-color: #f08804;;
+}
+
+.nav-textbox-container {
+    width: 100%;
+}
+
+#nav-textbox {
+    width: 100%;
+    height: 40px ;
+    margin: 0px;
+    padding: 0px;
+    color: #0f1111;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+
+.nav-logoholder {
+    height: 40px;
+    width: 8%;
+    background-color: #f08804;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logoholder i {
+    color: #0f1111;
+    font-size: 1em;
+    margin-left: 30%;
+    align-self: center;
+}
+
+/* box 4 account details and login details */
+.nav-accountdetailholder{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.nav-accountdetailholder p{
+    font-size: 14px;
+}
+
+/* box5 returns and orders */
+.nav-recorddetails {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.nav-recorddetails p{
+    font-size: 14px;
+}
+
+/* bold text for both boxes*/
+#imp-bold{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* box 6 cart */
+.nav-cart {
+    margin-right: 10px;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cart i {
+    font-size: 1.6rem ;
+}
+
+.nav-cart p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.panel {
+    background-color: #232f3e;
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.panel p {
+    font-size: 0.95rem;
+    font-weight: 549;
+    padding: 12px;
+}
+
+.panel-menu {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.panel-menu p{
+    padding-left: 5px;
+    font-size: 1rem;
+    font-weight: 540;
+}
+
+/* ***hero-section*** */
+.hero-section {
+    height: 45%;
+    background-image: url(images/amazon_backgr.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-mssg {
+    margin-top: 14.5rem;
+    align-self: flex-end;
+    font-size: 0.95rem;
+    height: 40px;
+    background-color: white;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero-section-mssg p{
+    padding: 5px;
+    color: #0f1111;
+}
+
+.hero-section-mssg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-section-mssg a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+/* **shop-section** */
+.shop-section {
+    width: 100%;
+    background: linear-gradient(#d0ebb3, #e3e6e6);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    row-gap: 27px;
+}
+
+.box {
+    width: 22%;
+    height: 370px;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.box h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.imageBox {
+    height: 100%;
+}
+
+.image1 {
+    background-image: url(images/box1.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(images/box2.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(images/box3.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(images/box4.jpg);
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url(images/box5.jpg);
+    background-size: cover;
+}
+
+.image6 {
+    background-image: url(images/box6.jpg);
+    background-size: cover;
+}
+
+.image7 {
+    background-image: url(images/box7.jpg);
+    background-size: cover;
+}
+
+.image8 {
+    background-image: url(images/box8.jpg);
+    background-size: cover;
+}
+
+/* hover effect on the above navbar components */
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+/* before footer area*/
+
+.area{
+    height: 3rem;
+    background: linear-gradient(#d0ebb3, #e3e6e6);
+}
+
+/* footer section*/
+
+.Footer-section{
+    height: 32rem;
+    background-color: #232f3e;
+}
+
+.main-footer{
+    height: 3.4rem;
+    background-color: #415164;
+    text-align: center;
+    line-height: 3.4rem;
+    font-size: 14px;
+}
+
+.info p{
+    padding: 8px;
+    font-size: 13px;
+    color: rgb(218, 208, 208);
+}
+
+.info-footer{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+/* making footer tetxt bold */
+
+#text-highlight{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
